@@ -13,7 +13,6 @@ namespace Registration_EFC_MVC.Models
         public int EmployeeId { get; set; }
         [Required(ErrorMessage ="This field is required.")]
         [DispayName("Full Name")]
-
         public string FullName { get; set; }
         [DispayName("Emp. Code")]
         public int EmpCode { get; set; }
